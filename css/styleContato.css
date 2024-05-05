@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:#C4170C;
+    color: white;
+    padding: 20px;
+    font-weight: 800;
+  }
+  
+  p{
+    font-size: 19px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+
+  }
+  nav ul li a:hover {
+    background-color: #09090c; 
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 138px;
+    width: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }

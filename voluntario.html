@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cadastro de Voluntariado</title>
+<link rel="stylesheet" href="css/styleVoluntario.css">
+</head>
+<body>
+  <header>
+    <h1>Serviço de Segurança Alimentar e Agricultura Sustentável</h1>
+    <nav>
+      <ul>
+        <li><a href="principal.html">Início</a></li>
+        <li><a href="doacao.html">Doar</a></li>
+        <li><a href="voluntario.html">Voluntariar-se</a></li>
+        <li><a href="noticias.html">Notícias</a></li>
+        <li><a href="contato.html">Contato</a></li>
+        <li><a href="login.html">Sair</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="registro-container">
+      <h1>Cadastro de Voluntariado</h1>
+      <form action="#">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input type="date" id="data-nascimento" name="data-nascimento" required>
+        
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+        
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        
+        <label for="motivo">Motivo do Voluntariado:</label>
+        <input type="text" id="motivo" name="motivo" placeholder="Informe o motivo do voluntariado" required>
+        
+        <label for="action">Atividade de Voluntariado:</label>
+        <select id="action" name="action" required>
+          <option value="" disabled selected>Selecione uma opção</option>
+          <option value="escolas-carentes">Voluntariar em Escolas Carentes</option>
+          <option value="entrega-comidas">Entrega de Comidas a Pessoas em Situação de Miséria</option>
+          <option value="agricultura-sustentavel">Auxiliar na Agricultura Sustentável em Cornélio Procópio</option>
+        </select>
+        
+        <input type="submit" value="Cadastrar">
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2024 Serviço de Segurança Alimentar e Agricultura Sustentável</p>
+  </footer>
+</body>
+</html>
